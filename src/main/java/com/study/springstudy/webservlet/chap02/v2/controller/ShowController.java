@@ -19,7 +19,7 @@ public class ShowController implements ControllerV2 {
         List<Member> memberList = repo.findAll();
         request.setAttribute("memberList", memberList);
 
-        return new View("v1/m-list");
+        return new View("v2/m-list");
 
     }
 }

@@ -23,9 +23,8 @@ public class SaveController implements ControllerV2 {
         Member member = new Member(account, password, userName);
         repo.save(member);
 
-        response.sendRedirect("/chap02/v1/show");
+//        response.sendRedirect("/chap02/v1/show");
 
-
-        return null;
+        return new View("redirect:/chap02/v2/show");
     }
 }

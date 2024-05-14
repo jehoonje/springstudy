@@ -11,6 +11,6 @@ public class JoinController implements ControllerV2 {
 
     @Override
     public View process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        return new View("v1/reg_form");
+        return new View("v2/reg_form");
     }
 }
