@@ -1,8 +1,7 @@
 package com.study.springstudy.webservlet.chap01.controller;
 
-import com.study.springstudy.webservlet.MemberMemoryRepo;
 import com.study.springstudy.webservlet.entity.Member;
-
+import com.study.springstudy.webservlet.MemberMemoryRepo;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
