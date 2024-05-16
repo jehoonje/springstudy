@@ -32,8 +32,6 @@ public class ResponseController {
         mv.addObject("hobbies", List.of("멍때리기","맛집가기"));
         mv.addObject("major", "컴퓨터 과학");
 
-        return "mvc/hobbies";
+        return mv;
     }
-
-
 }
