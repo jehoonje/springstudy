@@ -8,7 +8,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet ("/chap01/join")
+
+@WebServlet("/chap01/join")
 public class RegisterServlet extends HttpServlet {
 
     @Override

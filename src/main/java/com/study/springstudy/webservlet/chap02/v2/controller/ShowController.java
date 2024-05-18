@@ -1,7 +1,11 @@
 package com.study.springstudy.webservlet.chap02.v2.controller;
+
 import com.study.springstudy.webservlet.MemberMemoryRepo;
 import com.study.springstudy.webservlet.View;
+import com.study.springstudy.webservlet.chap02.v1.controller.ControllerV1;
 import com.study.springstudy.webservlet.entity.Member;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -19,6 +23,5 @@ public class ShowController implements ControllerV2 {
         request.setAttribute("memberList", memberList);
 
         return new View("v2/m-list");
-
     }
 }

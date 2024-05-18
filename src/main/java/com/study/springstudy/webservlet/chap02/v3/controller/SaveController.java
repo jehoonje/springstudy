@@ -1,8 +1,10 @@
 package com.study.springstudy.webservlet.chap02.v3.controller;
+
 import com.study.springstudy.webservlet.MemberMemoryRepo;
 import com.study.springstudy.webservlet.ModelAndView;
+import com.study.springstudy.webservlet.View;
 import com.study.springstudy.webservlet.entity.Member;
-import com.study.springstudy.webservlet.MemberMemoryRepo;
+
 import java.util.Map;
 
 public class SaveController implements ControllerV3 {
@@ -12,9 +14,9 @@ public class SaveController implements ControllerV3 {
     @Override
     public ModelAndView process(Map<String, String> paramMap) {
 
-        String userName = paramMap.get("userName");
-        String account = paramMap.get("account");
-        String password = paramMap.get("password");
+        String userName = paramMap.get("account");
+        String account = paramMap.get("password");
+        String password = paramMap.get("userName");
 
         Member member = new Member(account, password, userName);
 

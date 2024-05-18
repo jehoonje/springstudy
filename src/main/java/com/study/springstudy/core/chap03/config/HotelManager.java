@@ -28,7 +28,7 @@ public class HotelManager {
     }
     // 호텔 객체 생성
     public Hotel hotel() {
-        return new Hotel(restaurant1(), chef1());
+        return new Hotel(restaurant2(), chef2());
     }
 
 }

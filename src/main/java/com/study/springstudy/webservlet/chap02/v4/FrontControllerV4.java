@@ -25,7 +25,6 @@ public class FrontControllerV4 extends HttpServlet {
         controllerMap.put("/chap02/v4/show", new ShowController());
         controllerMap.put("/chap02/v4/delete", new DeleteController());
         controllerMap.put("/chap02/v4/detail", new DetailController());
-
     }
 
     @Override

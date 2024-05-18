@@ -1,4 +1,5 @@
 package com.study.springstudy.webservlet.chap02.v1.controller;
+
 import com.study.springstudy.webservlet.MemberMemoryRepo;
 import com.study.springstudy.webservlet.entity.Member;
 
@@ -20,7 +21,7 @@ public class ShowController implements ControllerV1 {
 
         request.setAttribute("memberList", memberList);
 
-        String viewName = "/WEB-INF/views/v1/m-list.jsp";
+        String viewName = "/WEB-INF/views/m-list.jsp";
 
         RequestDispatcher dp = request.getRequestDispatcher(viewName);
         dp.forward(request, response);

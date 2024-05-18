@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Insert title here</title>
 </head>
 <body>
 
-  <h1>Spring으로 포워딩한 jsp파일 입니다!!!</h1>
+  <h1>Spring으로 포워딩한 jsp파일입니다!!</h1>
 </body>
 </html>

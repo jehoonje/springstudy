@@ -59,7 +59,7 @@
                 <label class="price"># 가격: <span class="price-value">3000</span>원</label>
 
                 <!-- 화면에 렌더링은 안되지만 서버로 보낼 수 있음 -->
-                <input id="price-tag" type="hidden" name="price">
+                <input id="price-tag" type="hidden" name="price" value="3000">
                 
 
                 <label>
@@ -92,8 +92,7 @@
             // console.log(coffePrice[e.target.value]);
 
             const price = coffePrice[e.target.value]
-            document.querySelector('.price-value').textContent
-                    = price;
+            document.querySelector('.price-value').textContent = price;
 
             const $priceTag = document.getElementById('price-tag');
             $priceTag.value = price;

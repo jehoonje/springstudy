@@ -20,7 +20,7 @@ public class MemberController {
         return "v5/reg_form";
     }
 
-    // 회원 저장하는 요청
+    // 회원 저장을 하는 요청
     @RequestMapping("/save")
     public String save(Member member) {
         repo.save(member);
@@ -47,6 +47,7 @@ public class MemberController {
     public String detail(String account, Model model) {
         Member member = repo.findOne(account);
         model.addAttribute("mem", member);
-        return "redirect:/chap02/v5/show";
+        return "v5/detail";
     }
+
 }

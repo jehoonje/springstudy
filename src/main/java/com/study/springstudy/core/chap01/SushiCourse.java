@@ -12,5 +12,4 @@ public class SushiCourse {
         System.out.println("6. 아나고덮밥");
         System.out.println("7. 조리장 특선 디저트");
     }
-
 }

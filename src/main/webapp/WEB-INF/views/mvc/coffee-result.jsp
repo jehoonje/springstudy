@@ -15,7 +15,7 @@
 
     <ul>
         <li># 주문하신 메뉴: ${mmm}</li>
-        <li># 지불하실 가격: ${ppp}</li>
+        <li># 지불하실 가격: ${ppp}원</li>
     </ul>
 
     <a href="/coffee/order">재주문하기</a>

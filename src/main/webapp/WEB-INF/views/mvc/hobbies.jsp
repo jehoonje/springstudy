@@ -12,6 +12,7 @@
 
     <h1>[${name}] 취미 목록</h1>
     <ol>
+      
         <%-- for (String h : hList) --%>
         <c:forEach var="h" items="${hobbies}">
             <%-- 주석주석 --%>

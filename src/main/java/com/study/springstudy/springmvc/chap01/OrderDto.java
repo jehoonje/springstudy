@@ -38,4 +38,14 @@ public class OrderDto {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+        return "OrderDto{" +
+                "orderNum=" + orderNum +
+                ", goods='" + goods + '\'' +
+                ", amount=" + amount +
+                ", price=" + price +
+                '}';
+    }
 }

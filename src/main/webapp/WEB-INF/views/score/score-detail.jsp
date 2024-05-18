@@ -69,15 +69,15 @@
 
     <div class="wrap">
         <section class="score-main">
-            <h1>${score.stuName}님 성적 정보</h1>
+            <h1>${s.stuName}님 성적 정보</h1>
             <ul>
-              <li># 학번: ${score.stuNum}</li>
-              <li># 국어: ${score.kor}점</li>
-              <li># 영어: ${score.eng}점</li>
-              <li># 수학: ${score.math}점</li>
-              <li># 총점: ${score.total}점</li>
-              <li># 평균: ${score.average}점</li>
-              <li># 학점: ${score.grade}</li>
+                <li># 국어: ${s.kor}점</li>
+                <li># 영어: ${s.eng}점</li>
+                <li># 수학: ${s.math}점</li>
+                <li># 총점: ${s.total}점</li>
+                <li># 평균: ${s.average}점</li>
+                <li># 학점: ${s.grade}</li>
+                <li># 석차: ${rank} / ${count}</li>
             </ul>
             <div class="btn-group">
                 <a class="list-btn" href="/score/list">목록</a>

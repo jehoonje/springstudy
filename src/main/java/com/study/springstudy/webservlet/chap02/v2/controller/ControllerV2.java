@@ -9,7 +9,8 @@ import java.io.IOException;
 
 public interface ControllerV2 {
 
-    // 각 요청에 맞는 적절한 처리를 하는 기능
+    // 각 요청에 맞는 적절한 처리를 하고 난 후
+    // 보여줄 적절한 페이지를 리턴
     View process(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException;
 
 }

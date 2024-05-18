@@ -1,4 +1,5 @@
 package com.study.springstudy.webservlet.chap02.v2.controller;
+
 import com.study.springstudy.webservlet.MemberMemoryRepo;
 import com.study.springstudy.webservlet.View;
 import com.study.springstudy.webservlet.entity.Member;
@@ -23,7 +24,7 @@ public class SaveController implements ControllerV2 {
         repo.save(member);
 
 //        response.sendRedirect("/chap02/v1/show");
-
         return new View("redirect:/chap02/v2/show");
+
     }
 }

@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-// JSP 파일을 포워딩하는 역할
+// JSP파일을 포워딩하는 역할
 public class View {
 
     private String viewName; // 포워딩할 뷰의 경로
@@ -15,9 +15,9 @@ public class View {
     private String suffix; // 경로에 있는 공통 접미사
     private boolean redirect; // 리다이렉트 여부
 
-    // viewName 에 register 를 전달하면
+    // viewName에 register를 전달하면
     // 완성된 이름은 /WEB-INF/views/register.jsp
-    // redirect 일 때는 앞에있는 redirect: 를 제거
+    // redirect일 때는 앞에있는 redirect: 을 제거
     public View(String viewName) {
         this.prefix = "/WEB-INF/views/";
         this.suffix = ".jsp";
@@ -25,11 +25,12 @@ public class View {
         if (!isRedirect(viewName)) {
             this.viewName = prefix + viewName + suffix;
         } else {
+            // redirect:/chap02/v2/show
             this.viewName = viewName.substring(viewName.indexOf(":") + 1);
         }
     }
 
-    // 포워딩 기능 or 리다이렉트 기능
+    // 포워딩 or 리다이렉트 기능
     public void render(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         if (!this.redirect) {
@@ -44,6 +45,5 @@ public class View {
         this.redirect = viewName.startsWith("redirect:");
         return this.redirect;
     }
-
 
 }
