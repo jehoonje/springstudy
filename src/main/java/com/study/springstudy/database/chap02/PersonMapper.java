@@ -29,8 +29,4 @@ public interface PersonMapper {
     // 사람들의 총 숫자만 조회
     int count();
 
-
-
-
-
 }

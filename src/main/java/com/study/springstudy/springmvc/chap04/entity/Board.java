@@ -1,5 +1,7 @@
 package com.study.springstudy.springmvc.chap04.entity;
 
+import com.study.springstudy.springmvc.chap03.dto.ScorePostDto;
+import com.study.springstudy.springmvc.chap04.dto.BoardPostDto;
 import lombok.*;
 
 import java.sql.ResultSet;

@@ -1,5 +1,7 @@
 package com.study.springstudy.springmvc.chap03.mapper;
 
+import com.study.springstudy.springmvc.chap03.dto.RankDto;
+import com.study.springstudy.springmvc.chap03.dto.ScoreDetailResponseDto;
 import com.study.springstudy.springmvc.chap03.entity.Score;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -17,6 +19,7 @@ class ScoreMapperTest {
     @Autowired
     ScoreMapper mapper;
 
+
     @Test
     @DisplayName("전체조회")
     void findAllTest() {
@@ -24,16 +27,14 @@ class ScoreMapperTest {
 
         //when
         List<Score> scoreList = mapper.findAll(null);
-
         //then
         scoreList.forEach(System.out::println);
-
     }
+
 
     @Test
     @DisplayName("개별조회")
     void findOneTest() {
-
         //given
         long stuNum = 11;
         //when
@@ -42,15 +43,17 @@ class ScoreMapperTest {
         System.out.println("score = " + score);
     }
 
+
     @Test
     @DisplayName("순위 조회")
-    void    rankTest() {
+    void rankTest() {
         //given
         long stuNum = 1;
         //when
-        List<Integer> rankByStuNum = mapper.findRankByStuNum(stuNum);
+        RankDto rankByStuNum = mapper.findRankByStuNum(stuNum);
         //then
         System.out.println(rankByStuNum);
     }
+
 
 }

@@ -48,6 +48,8 @@ public class Score {
         calculate();
     }
 
+
+
     private void calculate() {
         this.total = kor + eng + math;
         this.average = total / 3.0;

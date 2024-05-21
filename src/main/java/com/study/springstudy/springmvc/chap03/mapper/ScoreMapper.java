@@ -1,11 +1,13 @@
 package com.study.springstudy.springmvc.chap03.mapper;
 
+import com.study.springstudy.springmvc.chap03.dto.RankDto;
+import com.study.springstudy.springmvc.chap03.dto.ScoreDetailResponseDto;
 import com.study.springstudy.springmvc.chap03.entity.Score;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
-@Mapper //이거 꼭써야함
+@Mapper
 public interface ScoreMapper {
 
     // 저장소에 데이터 추가하기
@@ -21,7 +23,7 @@ public interface ScoreMapper {
     boolean delete(long stuNum);
 
     // 저장소에서 등수, 전체인원 조회하기
-    List<Integer> findRankByStuNum(long stuNum);
+    RankDto findRankByStuNum(long stuNum);
 
     // 저장소에서 국영수 점수 수정하기
     boolean updateScore(Score s);

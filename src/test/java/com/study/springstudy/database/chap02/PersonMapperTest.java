@@ -28,17 +28,19 @@ class PersonMapperTest {
         assertTrue(flag);
     }
 
+
     @Test
     @DisplayName("아이디로 사람 정보 삭제한다.")
     void delTest() {
         //given
-        long id = 0000;
+        long id = 9999;
         //when
         boolean flag = mapper.delete(id);
         //then
         assertTrue(flag);
     }
-
+    
+    
     @Test
     @DisplayName("아이디가 300인 사람의 정보를 수정한다.")
     void updateTest() {
@@ -49,22 +51,24 @@ class PersonMapperTest {
         //then
         assertTrue(flag);
     }
-
+    
+    
     @Test
-    @DisplayName("전체조회 하면 결과 건수가 5건이다")
+    @DisplayName("전체조회하면 결과 건수가 5건이다")
     void findAllTest() {
         //given
-        List<Person> people = mapper.findAll();
 
         //when
-        people.forEach(System.out::println);
+        List<Person> people = mapper.findAll();
         //then
+        people.forEach(System.out::println);
 
-        assertEquals(4,people.size());
+        assertEquals(5, people.size());
     }
-
+    
+    
     @Test
-    @DisplayName("id로 사람 정보를 개별 조회한다.")
+    @DisplayName("id로 사람 정보를 개별 조회한다")
     void findOneTest() {
         //given
         long id = 100;
@@ -73,13 +77,13 @@ class PersonMapperTest {
         //then
         System.out.println("person = " + person);
 
-        assertEquals("고라니", person.getPersonName());
-
+        assertEquals("백백이", person.getPersonName());
     }
+    
 
     @Test
     @DisplayName("사람수와 이름리스트를 조회한다")
-    void findNamesTest () {
+    void findNamesTest() {
         //given
 
         //when
@@ -90,7 +94,6 @@ class PersonMapperTest {
         System.out.println();
         System.out.println("count = " + count);
     }
-
 
 
 
