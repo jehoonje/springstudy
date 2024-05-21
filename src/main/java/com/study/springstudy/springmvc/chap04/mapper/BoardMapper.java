@@ -1,7 +1,5 @@
 package com.study.springstudy.springmvc.chap04.mapper;
 
-import com.study.springstudy.springmvc.chap03.dto.RankDto;
-import com.study.springstudy.springmvc.chap03.entity.Score;
 import com.study.springstudy.springmvc.chap04.entity.Board;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -9,6 +7,7 @@ import java.util.List;
 
 @Mapper
 public interface BoardMapper {
+
     // 게시물 목록 조회
     List<Board> findAll();
 
@@ -16,12 +15,13 @@ public interface BoardMapper {
     Board findOne(int boardNo);
 
     // 게시물 등록
-    boolean save(Board b);
+    boolean save(Board board);
 
     // 게시물 삭제
     boolean delete(int boardNo);
 
     // 조회수 상승
     void upViewCount(int boardNo);
+
 
 }

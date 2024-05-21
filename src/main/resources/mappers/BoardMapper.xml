@@ -5,21 +5,22 @@
 
 <mapper namespace="com.study.springstudy.springmvc.chap04.mapper.BoardMapper">
 
-    <insert id="save">
-        INSERT INTO tbl_board
-        (writer, title, content)
-        VALUES
-        (#{writer}, #{title}, #{content})
-    </insert>
-
     <select id="findAll" resultType="board">
         SELECT * FROM tbl_board
+        ORDER BY board_no DESC
     </select>
 
     <select id="findOne" resultType="board">
         SELECT * FROM tbl_board
         WHERE board_no = #{boardNo}
     </select>
+
+    <insert id="save">
+        INSERT INTO tbl_board
+            (writer, content, title)
+        VALUES
+            (#{writer}, #{content}, #{title})
+    </insert>
 
     <delete id="delete">
         DELETE FROM tbl_board
@@ -31,12 +32,6 @@
         SET view_count = view_count + 1
         WHERE board_no = #{boardNo}
     </update>
-
-
-
-
-
-
 
 
 </mapper>
