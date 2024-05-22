@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec3da5f4-95c0-4ce2-96e2-c5d6bdbf9b4b" name="변경" comment="3 tier architecture - part2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/common/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/common/PageMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/study/springstudy/springmvc/chap04/mapper/BoardMapperTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/controller/BoardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/controller/BoardController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/mapper/BoardMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/mapper/BoardMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/BoardMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/css/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,9 +73,9 @@
       <list>
         <option value="jsp template" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
-        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -82,8 +91,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/soongu/spring-study202405.git&quot;,
-    &quot;accountId&quot;: &quot;8c32816b-481d-4ea8-902a-b914d19683df&quot;
+    &quot;url&quot;: &quot;https://github.com/jehoonje/springstudy.git&quot;,
+    &quot;accountId&quot;: &quot;a3396533-d228-473e-9fa5-d25a80af0309&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
@@ -100,49 +109,50 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.HotelDiTest.diTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.HotelTest.hotelTest.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springstudy [:Main.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.springstudy [clean].executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryImplTest.deleteTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryImplTest.findAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.BoardRepositoryImplTest.saveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HotelSpringDITest.diTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.delTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.findAllTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.findNamesTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.findOneTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.saveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonMapperTest.updateTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PersonTest.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScoreMapperTest.findAllTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScoreMapperTest.findOneTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScoreMapperTest.rankTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJdbcTest.deleteTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJdbcTest.findAllTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJdbcTest.findOneTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJdbcTest.modifyTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.SpringJdbcTest.saveTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.StudentTest.sTest.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/superstar/Desktop/develop/springstudy/src/main/resources/static/assets/img&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/superstar/Desktop/develop/springstudy/src/main/java/com/study/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editing.templates&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Gradle.HotelDiTest.diTest.executor": "Run",
+    "Gradle.HotelTest.hotelTest.executor": "Run",
+    "Gradle.springstudy [:Main.main()].executor": "Run",
+    "Gradle.springstudy [clean].executor": "Run",
+    "JUnit.BoardMapperTest.insertTest.executor": "Run",
+    "JUnit.BoardRepositoryImplTest.deleteTest.executor": "Run",
+    "JUnit.BoardRepositoryImplTest.findAll.executor": "Run",
+    "JUnit.BoardRepositoryImplTest.saveTest.executor": "Run",
+    "JUnit.HotelSpringDITest.diTest.executor": "Run",
+    "JUnit.PersonMapperTest.delTest.executor": "Run",
+    "JUnit.PersonMapperTest.findAllTest.executor": "Run",
+    "JUnit.PersonMapperTest.findNamesTest.executor": "Run",
+    "JUnit.PersonMapperTest.findOneTest.executor": "Run",
+    "JUnit.PersonMapperTest.saveTest.executor": "Run",
+    "JUnit.PersonMapperTest.updateTest.executor": "Run",
+    "JUnit.PersonTest.test.executor": "Run",
+    "JUnit.ScoreMapperTest.findAllTest.executor": "Run",
+    "JUnit.ScoreMapperTest.findOneTest.executor": "Run",
+    "JUnit.ScoreMapperTest.rankTest.executor": "Run",
+    "JUnit.SpringJdbcTest.deleteTest.executor": "Run",
+    "JUnit.SpringJdbcTest.findAllTest.executor": "Run",
+    "JUnit.SpringJdbcTest.findOneTest.executor": "Run",
+    "JUnit.SpringJdbcTest.modifyTest.executor": "Run",
+    "JUnit.SpringJdbcTest.saveTest.executor": "Run",
+    "JUnit.StudentTest.sTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/superstar/Desktop/develop/springstudy/src/main/resources/static/assets/img",
+    "onboarding.tips.debug.path": "/Users/superstar/Desktop/develop/springstudy/src/main/java/com/study/Main.java",
+    "project.structure.last.edited": "프로젝트",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "애플리케이션.Main.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.study.springstudy.database.chap01" />
@@ -163,11 +173,11 @@
       <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.study.springstudy.springmvc.chap04.mapper" />
       <recent name="com.study.springstudy.springmvc.chap03.mapper" />
       <recent name="com.study.springstudy.database.chap02" />
       <recent name="com.study.springstudy.springmvc.chap04.repository" />
       <recent name="com.study.springstudy.database.chap01" />
-      <recent name="com.study.springstudy.springmvc" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.study.springstudy.webservlet.chap02.v3.controller" />
@@ -175,7 +185,7 @@
       <recent name="com.study.springstudy.webservlet.chap02.v2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonMapperTest.findNamesTest">
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.springstudy.Main" />
       <module name="springstudy.main" />
@@ -189,17 +199,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonMapperTest.findNamesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BoardMapperTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springstudy.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.study.springstudy.database.chap02.*" />
+          <option name="PATTERN" value="com.study.springstudy.springmvc.chap04.mapper.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.study.springstudy.database.chap02" />
-      <option name="MAIN_CLASS_NAME" value="com.study.springstudy.database.chap02.PersonMapperTest" />
-      <option name="METHOD_NAME" value="findNamesTest" />
+      <option name="PACKAGE_NAME" value="com.study.springstudy.springmvc.chap04.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.study.springstudy.springmvc.chap04.mapper.BoardMapperTest" />
+      <option name="METHOD_NAME" value="insertTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -255,10 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="JUnit.BoardMapperTest.insertTest" />
         <item itemvalue="JUnit.ScoreMapperTest.rankTest" />
         <item itemvalue="JUnit.ScoreMapperTest.findOneTest" />
         <item itemvalue="JUnit.ScoreMapperTest.findAllTest" />
-        <item itemvalue="JUnit.PersonMapperTest.findNamesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -463,7 +474,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716274662125</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="3 tier architecture - part2">
+      <option name="closed" value="true" />
+      <created>1716336382292</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716336382292</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
