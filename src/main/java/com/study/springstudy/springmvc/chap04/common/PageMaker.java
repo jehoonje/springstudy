@@ -10,13 +10,15 @@ import lombok.ToString;
 public class PageMaker {
 
     // 한 화면에 페이지를 몇개씩 배치할 것인지??
-    private static final int PAGE_COUNT = 10;
+    private static final int PAGE_COUNT = 5;
 
     // 페이지 시작번호와 끝번호
-    private int begin, end;
+    private int begin, end, finalPage;
 
     // 이전, 다음버튼 활성화 여부
     private boolean prev, next;
+
+
 
 
     // 현재 페이지 정보
@@ -74,7 +76,7 @@ public class PageMaker {
 
          */
 
-        int finalPage = (int) Math.ceil((double) totalCount / pageInfo.getAmount());
+        this.finalPage = (int) Math.ceil((double) totalCount / pageInfo.getAmount());
 
         // 마지막 구간에서 end 값을 finalPage 로 보정
         if (finalPage < this.end) {
@@ -86,6 +88,7 @@ public class PageMaker {
 
         // 5. 다음 버튼 활성화 여부
         this.next = this.end < finalPage;
+
 
     }
 
