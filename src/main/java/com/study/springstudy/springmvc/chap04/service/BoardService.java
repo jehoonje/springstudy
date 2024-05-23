@@ -56,7 +56,7 @@ public class BoardService {
         BoardDetailResponseDto responseDto = new BoardDetailResponseDto(b);
         responseDto.setReplies(replies);
 
-        return new BoardDetailResponseDto(b);
+        return responseDto;
     }
 
     public int getCount(Search search) {

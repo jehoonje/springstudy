@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ec3da5f4-95c0-4ce2-96e2-c5d6bdbf9b4b" name="변경" comment="3 tier architecture - part2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/study/springstudy/springmvc/chap05/ReplyMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/study/springstudy/springmvc/chap05/ReplyMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/service/BoardService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +185,7 @@
       <recent name="com.study.springstudy.webservlet.chap02.v2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ReplyMapperTest.modifyTest">
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.springstudy.Main" />
       <module name="springstudy.main" />
@@ -263,11 +265,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="JUnit.ReplyMapperTest.modifyTest" />
         <item itemvalue="JUnit.ReplyMapperTest.deleteTest" />
         <item itemvalue="JUnit.ReplyMapperTest.findAllTest" />
         <item itemvalue="JUnit.ReplyMapperTest.bulkInsert" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -520,7 +522,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716433236927</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="3 tier architecture - part2">
+      <option name="closed" value="true" />
+      <created>1716435130878</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1716435130879</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

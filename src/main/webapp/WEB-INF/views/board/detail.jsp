@@ -122,6 +122,13 @@
         <button class="list-btn" type="button" onclick="window.location.href='${ref}'">목록</button>
     </div>
 
+    
+
 </div>
+    <!-- 댓글 영역 -->
+    <c:forEach var="r" items="${bbb.replies}">
+        <div style="font-size: 24px;">${r}</div>
+    </c:forEach>
+    
 </body>
 </html>
