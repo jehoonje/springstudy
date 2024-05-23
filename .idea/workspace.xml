@@ -499,7 +499,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716357037281</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="3 tier architecture - part2">
+      <option name="closed" value="true" />
+      <created>1716427454677</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1716427454677</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
