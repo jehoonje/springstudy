@@ -35,6 +35,7 @@ public class PageMaker {
     // 페이지 생성에 필요한 데이터를 만드는 알고리즘
     private void makePageInfo() {
 
+
         // 1. end값을 계산
         /*
             지금 사용자가 7페이지를 보고 있다면
