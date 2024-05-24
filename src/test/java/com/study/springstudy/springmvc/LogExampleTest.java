@@ -1,6 +1,5 @@
 package com.study.springstudy.springmvc;
 
-import org.apache.juli.logging.Log;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,8 +15,10 @@ class LogExampleTest {
 
 
     @Test
-    @DisplayName("test")
+    @DisplayName("")
     void logTest() {
         logExample.showLog();
     }
+
+
 }

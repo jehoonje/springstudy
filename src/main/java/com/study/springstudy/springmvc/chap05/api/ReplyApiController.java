@@ -1,6 +1,5 @@
 package com.study.springstudy.springmvc.chap05.api;
 
-
 import com.study.springstudy.springmvc.chap05.dto.response.ReplyDetailDto;
 import com.study.springstudy.springmvc.chap05.entity.Reply;
 import com.study.springstudy.springmvc.chap05.service.ReplyService;
@@ -19,18 +18,18 @@ import java.util.List;
 @RequiredArgsConstructor
 @Slf4j
 public class ReplyApiController {
-    
+
     private final ReplyService replyService;
-    
+
     // 댓글 목록 조회 요청
-    // URL : /api/v1/replies/원본글번호    -   GET -> 목록조회
-    // @PathVariable : URL에 붙어있는 변수값을 읽은 아노테이션
+    // URL : /api/v1/replies/원본글번호   -  GET -> 목록조회
+    // @PathVariable : URL에 붙어있는 변수값을 읽는 아노테이션
     @GetMapping("/{bno}")
     public ResponseEntity<?> list(@PathVariable long bno) {
 
         if (bno == 0) {
             String message = "글 번호는 0번이 될 수 없습니다.";
-            log.warn("글 번호는 0번이 될 수 없습니다.");
+            log.warn(message);
             return ResponseEntity
                     .badRequest()
                     .body(message);
@@ -41,14 +40,9 @@ public class ReplyApiController {
         List<ReplyDetailDto> replies = replyService.getReplies(bno);
         log.debug("first reply : {}", replies.get(0));
 
-        try {
-
-        } catch (Exception e) {
-            log.error("fjsaie");
-        }
-
         return ResponseEntity
                 .ok()
                 .body(replies);
     }
+
 }
