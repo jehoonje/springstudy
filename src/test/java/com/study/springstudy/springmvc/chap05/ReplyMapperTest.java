@@ -17,7 +17,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class ReplyMapperTest {
 
     @Autowired BoardMapper boardMapper;
-    @Autowired ReplyMapper replyMapper;
+    @Autowired
+    ReplyMapper replyMapper;
 
 
     /*@Test

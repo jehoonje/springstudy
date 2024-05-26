@@ -23,7 +23,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class BoardController {
 
-    //    private final BoardRepository repository;
+//    private final BoardRepository repository;
     private final BoardService service;
 
     // 1. 목록 조회 요청 (/board/list : GET)
@@ -89,7 +89,7 @@ public class BoardController {
         // 2. 데이터베이스로부터 해당 글번호 데이터 조회하기
         BoardDetailResponseDto dto = service.detail(bno);
 
-        // 3. JSP 파일에 조회한 데이터 보내기
+        // 3. JSP파일에 조회한 데이터 보내기
         model.addAttribute("bbb", dto);
 
         // 4. 요청 헤더를 파싱하여 이전 페이지의 주소를 얻어냄

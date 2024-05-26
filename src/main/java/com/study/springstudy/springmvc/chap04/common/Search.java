@@ -1,9 +1,6 @@
 package com.study.springstudy.springmvc.chap04.common;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 @Getter @Setter @ToString
 @EqualsAndHashCode
@@ -15,6 +12,4 @@ public class Search extends Page {
     public Search() {
         this.keyword = "";
     }
-
-
 }

@@ -5,7 +5,7 @@
 
 <mapper namespace="com.study.springstudy.springmvc.chap04.mapper.BoardMapper">
 
-<!--    동적 SQL 조건을 분리   -->
+    <!--  동적 SQL 조건을 분리  -->
     <sql id="search">
         <if test="type == 'title'">
             WHERE title LIKE CONCAT('%', #{keyword}, '%')
@@ -31,7 +31,7 @@
             B.writer,
             B.reg_date_time,
             B.view_count,
-        COUNT(R.reply_no) AS reply_count
+            COUNT(R.reply_no) AS reply_count
         FROM tbl_board B
         LEFT OUTER JOIN tbl_reply R
         ON B.board_no = R.board_no
@@ -67,8 +67,7 @@
     <select id="count" resultType="int">
         SELECT COUNT(*)
         FROM tbl_board
-        <include refid="search"/>
+        <include refid="search" />
     </select>
-
 
 </mapper>

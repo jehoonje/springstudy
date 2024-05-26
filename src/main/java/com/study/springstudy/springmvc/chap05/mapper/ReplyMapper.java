@@ -22,6 +22,4 @@ public interface ReplyMapper {
 
     // 총 댓글 수 조회
     int count(long boardNo);
-
-
 }

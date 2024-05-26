@@ -1,12 +1,12 @@
 package com.study.springstudy.springmvc;
 
-
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 @Component
 @Slf4j // 로그 라이브러리
 public class LogExample {
+
     /*
         - 로그: 발생시간, 로그 레벨, 파일저장
         - 로그 라이브러리: logback, log4j, slf4j
@@ -26,10 +26,12 @@ public class LogExample {
 
     public void showLog() {
 
-        log.trace("trace@@!");
+        log.trace("trace!!!");
         log.debug("debug!!!");
-        log.info("info!@#");
-        log.warn("warnn%$#");
+        log.info("info!!!");
+        log.warn("warn!!!");
         log.error("error!!!");
     }
+
+
 }

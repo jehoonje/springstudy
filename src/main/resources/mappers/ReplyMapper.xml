@@ -7,9 +7,9 @@
 
     <insert id="save">
         INSERT INTO tbl_reply
-        (reply_text, reply_writer, board_no)
+            (reply_text, reply_writer, board_no)
         VALUES
-        (#{replyText}, #{replyWriter}, #{boardNo})
+            (#{replyText}, #{replyWriter}, #{boardNo})
     </insert>
 
     <update id="modify">

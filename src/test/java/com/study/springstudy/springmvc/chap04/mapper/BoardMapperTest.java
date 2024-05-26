@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 @SpringBootTest
 class BoardMapperTest {
 
@@ -15,20 +16,17 @@ class BoardMapperTest {
 
 
     @Test
-    @DisplayName("create300")
+    @DisplayName("")
     void insertTest() {
-        //given
-        for (int i = 0; i <= 300; i++) {
+        for (int i = 1; i <= 300; i++) {
             Board b = new Board();
             b.setTitle("테스트제목"+i);
             b.setWriter("테스트사람"+i);
             b.setContent("내용내용"+i);
 
-//            mapper.save(b);
-
+            mapper.save(b);
         }
-        //when
-
-        //then
     }
+
+
 }

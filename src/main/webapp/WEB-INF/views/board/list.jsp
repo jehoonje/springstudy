@@ -84,7 +84,7 @@
               <div class="card-wrapper">
                 <section class="card" data-bno="${b.bno}">
                   <div class="card-title-wrapper">
-                    <h2 class="card-title">${b.shortTitle} [${b.replyCount}]</h2>
+                    <h2 class="card-title">${b.shortTitle} [${b.replyCount}] </h2>
                     <div class="time-view-wrapper">
                       <div class="time">
                         <i class="far fa-clock"></i>
@@ -122,8 +122,6 @@
 
         </div>
         <!-- end div.card-container -->
-
-        
 
         <!-- 게시글 목록 하단 영역 -->
         <div class="bottom-section">
