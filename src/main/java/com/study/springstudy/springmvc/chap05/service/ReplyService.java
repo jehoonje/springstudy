@@ -8,6 +8,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -49,7 +50,12 @@ public class ReplyService {
     }
 
     // 댓글 삭제
-    public void remove() {
+    public List<ReplyDetailDto> remove(long rno) {
+        // 댓글 번호로 원본 글번호 찾기
+        long bno = replyMapper.findBno(rno);
+        boolean flag = replyMapper.delete(rno);
+        // 삭제 후 삭제된 목록을 리턴
+        return flag ? getReplies(bno) : Collections.emptyList();
 
     }
 }

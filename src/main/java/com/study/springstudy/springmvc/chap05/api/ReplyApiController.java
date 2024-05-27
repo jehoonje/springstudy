@@ -91,7 +91,17 @@ public class ReplyApiController {
             errors.put(error.getField(), error.getDefaultMessage());
         }
 
-        return null;
+        return errors;
     }
 
+    // 삭제 처리 요청
+    @DeleteMapping("/{rno}")
+    public ResponseEntity<?> delete(@PathVariable long rno) {
+
+        List<ReplyDetailDto> dtoList = replyService.remove(rno);
+
+        return ResponseEntity
+                .ok()
+                .body(dtoList);
+    }
 }
