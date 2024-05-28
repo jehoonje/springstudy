@@ -10,7 +10,7 @@ import lombok.ToString;
 public class PageMaker {
 
     // 한 화면에 페이지를 몇개씩 배치할 것인지??
-    private static final int PAGE_COUNT = 10;
+    private static final int PAGE_COUNT = 5;
 
     // 페이지 시작번호와 끝번호
     private int begin, end, finalPage;
