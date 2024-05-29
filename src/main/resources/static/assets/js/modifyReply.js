@@ -4,25 +4,13 @@
 export function modifyReplyClickEvent() {
   document.getElementById('replyData').addEventListener('click', e => {
     e.preventDefault();
-    
-    if (!e.target.matches('#replyModBtn')) return;
 
-    console.log('수정 모드 진입');
+    if (!e.target.matches('#replyModBtn')) return;
+    // 수정 전 텍스트 읽기
+    const replyText = e.target.closest('.row').firstElementChild.textContent;
+    // 모달의 textArea에 넣기
+    document.getElementById('modReplyText').value = replyText;
+
+
   });
 }
-
-
-// 플레이스홀더 벨류 변경 함수
-export function modContentFix() {
-  document.getElementById('replyData').addEventListener('click', e => {
-    
-    e.preventDefault();
-    if (!e.target.matches('#replyModBtn')) return;
-    const replyContent = e.target.closest('.row').querySelector('.col-md-9');
-    // console.log(replyContent);
-
-    const textarea = document.getElementById('modReplyText');
-    textarea.value = replyContent.textContent;
-    
-  })
-};
