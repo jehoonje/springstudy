@@ -5,47 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ec3da5f4-95c0-4ce2-96e2-c5d6bdbf9b4b" name="변경" comment="Member system update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/api/MemberController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/request/LoginDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/request/SignUpDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/service/LoginResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/service/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/side-menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/static-head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/members/sign-up.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/study/springstudy/springmvc/chap05/mapper/MemberMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/study/springstudy/springmvc/chap05/service/MemberServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/signUp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/validation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/common/PageMaker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/common/PageMaker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap04/service/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/api/ReplyApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/api/ReplyApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/request/ReplyModifyDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/request/ReplyModifyDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/request/ReplyPostDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/request/ReplyPostDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/response/ReplyListDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/response/ReplyListDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/entity/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/entity/Auth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/entity/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/entity/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/mapper/MemberMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/mapper/MemberMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/mapper/ReplyMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/mapper/ReplyMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/service/ReplyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/service/ReplyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/webservlet/chap02/v5/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/webservlet/chap02/v5/MemberController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/BoardMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/BoardMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/MemberMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/MemberMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mappers/ReplyMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mappers/ReplyMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/api/MemberController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/api/MemberController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/request/SignUpDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/dto/request/SignUpDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/chap05/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/study/springstudy/springmvc/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/img/마멜이.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/deleteReply.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/deleteReply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/getReply.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/getReply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/modifyReply.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/modifyReply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/reply.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/reply.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/assets/js/spinner.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/assets/js/spinner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/write.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/board/write.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/study/springstudy/springmvc/chap05/ReplyMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/study/springstudy/springmvc/chap05/ReplyMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/static-head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/include/static-head.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/members/sign-up.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/members/sign-up.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,67 +111,67 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.HotelDiTest.diTest.executor": "Run",
-    "Gradle.HotelTest.hotelTest.executor": "Run",
-    "Gradle.springstudy [:Main.main()].executor": "Run",
-    "Gradle.springstudy [clean].executor": "Run",
-    "JUnit.BoardMapperTest.insertTest.executor": "Run",
-    "JUnit.BoardRepositoryImplTest.deleteTest.executor": "Run",
-    "JUnit.BoardRepositoryImplTest.findAll.executor": "Run",
-    "JUnit.BoardRepositoryImplTest.saveTest.executor": "Run",
-    "JUnit.HotelSpringDITest.diTest.executor": "Run",
-    "JUnit.LogExampleTest.executor": "Run",
-    "JUnit.MemberMapperTest.encodingTest.executor": "Run",
-    "JUnit.MemberMapperTest.existsTest2.executor": "Run",
-    "JUnit.MemberMapperTest.findTest.executor": "Run",
-    "JUnit.MemberMapperTest.saveTest.executor": "Run",
-    "JUnit.MemberServiceTest.joinTest.executor": "Run",
-    "JUnit.MemberServiceTest.noAccTest.executor": "Run",
-    "JUnit.MemberServiceTest.noPwTest.executor": "Run",
-    "JUnit.MemberServiceTest.successTest.executor": "Run",
-    "JUnit.PersonMapperTest.delTest.executor": "Run",
-    "JUnit.PersonMapperTest.findAllTest.executor": "Run",
-    "JUnit.PersonMapperTest.findNamesTest.executor": "Run",
-    "JUnit.PersonMapperTest.findOneTest.executor": "Run",
-    "JUnit.PersonMapperTest.saveTest.executor": "Run",
-    "JUnit.PersonMapperTest.updateTest.executor": "Run",
-    "JUnit.PersonTest.test.executor": "Run",
-    "JUnit.ReplyMapperTest.bulkInsert.executor": "Run",
-    "JUnit.ReplyMapperTest.deleteTest.executor": "Run",
-    "JUnit.ReplyMapperTest.findAllTest.executor": "Run",
-    "JUnit.ReplyMapperTest.modifyTest.executor": "Run",
-    "JUnit.ScoreMapperTest.findAllTest.executor": "Run",
-    "JUnit.ScoreMapperTest.findOneTest.executor": "Run",
-    "JUnit.ScoreMapperTest.rankTest.executor": "Run",
-    "JUnit.SpringJdbcTest.deleteTest.executor": "Run",
-    "JUnit.SpringJdbcTest.findAllTest.executor": "Run",
-    "JUnit.SpringJdbcTest.findOneTest.executor": "Run",
-    "JUnit.SpringJdbcTest.modifyTest.executor": "Run",
-    "JUnit.SpringJdbcTest.saveTest.executor": "Run",
-    "JUnit.StudentTest.sTest.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/superstar/Desktop/develop/springstudy/src/main/resources/static/assets/img",
-    "onboarding.tips.debug.path": "/Users/superstar/Desktop/develop/springstudy/src/main/java/com/study/Main.java",
-    "project.structure.last.edited": "프로젝트",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "애플리케이션.Main.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.HotelDiTest.diTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.HotelTest.hotelTest.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springstudy [:Main.main()].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.springstudy [clean].executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BoardMapperTest.insertTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BoardRepositoryImplTest.deleteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BoardRepositoryImplTest.findAll.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.BoardRepositoryImplTest.saveTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.HotelSpringDITest.diTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LogExampleTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MemberMapperTest.encodingTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MemberMapperTest.existsTest2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MemberMapperTest.findTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MemberMapperTest.saveTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MemberServiceTest.joinTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MemberServiceTest.noAccTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MemberServiceTest.noPwTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MemberServiceTest.successTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonMapperTest.delTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonMapperTest.findAllTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonMapperTest.findNamesTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonMapperTest.findOneTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonMapperTest.saveTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonMapperTest.updateTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReplyMapperTest.bulkInsert.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReplyMapperTest.deleteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReplyMapperTest.findAllTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReplyMapperTest.modifyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScoreMapperTest.findAllTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScoreMapperTest.findOneTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ScoreMapperTest.rankTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringJdbcTest.deleteTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringJdbcTest.findAllTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringJdbcTest.findOneTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringJdbcTest.modifyTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringJdbcTest.saveTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.StudentTest.sTest.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/superstar/Desktop/develop/springstudy/src/main/resources/static/assets/img&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/superstar/Desktop/develop/springstudy/src/main/java/com/study/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;프로젝트&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.study.springstudy.springmvc.chap05.service" />
@@ -238,7 +208,7 @@
       <recent name="com.study.springstudy.webservlet.chap02.v2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.MemberServiceTest.joinTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.springstudy.Main" />
       <module name="springstudy.main" />
@@ -318,11 +288,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.MemberServiceTest.joinTest" />
         <item itemvalue="JUnit.MemberServiceTest.noAccTest" />
         <item itemvalue="JUnit.MemberServiceTest.noPwTest" />
         <item itemvalue="JUnit.MemberServiceTest.successTest" />
-        <item itemvalue="JUnit.MemberServiceTest.joinTest" />
       </list>
     </recent_temporary>
   </component>
@@ -655,7 +624,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716962095292</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Member system update">
+      <option name="closed" value="true" />
+      <created>1717035003024</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1717035003024</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
