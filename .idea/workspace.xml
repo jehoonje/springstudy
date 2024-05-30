@@ -208,7 +208,7 @@
       <recent name="com.study.springstudy.webservlet.chap02.v2" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberServiceTest.joinTest">
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.study.springstudy.Main" />
       <module name="springstudy.main" />
@@ -288,6 +288,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="JUnit.MemberServiceTest.joinTest" />
         <item itemvalue="JUnit.MemberServiceTest.noAccTest" />
         <item itemvalue="JUnit.MemberServiceTest.noPwTest" />
