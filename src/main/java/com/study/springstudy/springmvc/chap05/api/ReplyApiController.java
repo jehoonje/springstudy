@@ -107,17 +107,18 @@ public class ReplyApiController {
     }
 
     // 댓글 수정 요청
-//    @PutMapping // 전체 수정
-//    @PatchMapping // 일부 수정
+//    @PutMapping   // 전체수정
+//    @PatchMapping // 일부수정
+
     /*
         let obj = {
             age : 3
         }
 
-        PUT          -> obj = {age: 10 };
-        PATCH        -> obj.age = 10;
-
+        PUT  -   obj = { age: 10 };
+        PATCH -  obj.age = 10;
      */
+
     @RequestMapping(method = {RequestMethod.PUT, RequestMethod.PATCH})
     public ResponseEntity<?> modify(
             @Validated @RequestBody ReplyModifyDto dto
@@ -140,4 +141,5 @@ public class ReplyApiController {
         return ResponseEntity.ok().body(replyListDto);
 
     }
+
 }

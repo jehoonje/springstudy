@@ -22,10 +22,11 @@ document.getElementById('replyAddBtn').addEventListener('click', e => {
 
 // 댓글 삭제 이벤트 등록
 removeReplyClickEvent();
-
-// 댓글 수정 이벤트 등록
 modifyReplyClickEvent();
-
 
 // 댓글 페이지 클릭이벤트 등록
 // replyPageClickEvent();
+
+
+
+

@@ -12,19 +12,17 @@ import java.util.List;
 /*
     {
         "replies": [
-           {}, {}, {}
+            {}, {}, {}
         ]
     }
  */
 public class ReplyListDto {
 
     /*
-            [
-                {}, {}, {}
-            ]
-
+        [
+            {}, {}, {}
+        ]
      */
-
     private PageMaker pageInfo;
     private List<ReplyDetailDto> replies;
 }

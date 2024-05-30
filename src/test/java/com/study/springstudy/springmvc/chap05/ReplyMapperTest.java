@@ -21,19 +21,19 @@ class ReplyMapperTest {
     ReplyMapper replyMapper;
 
 
-    @Test
+    /*@Test
     @DisplayName("")
     void bulkInsert() {
         // 게시물 100개와 댓글 5000개를 랜덤으로 등록
-//        for (int i = 1; i <= 100; i++) {
-//            Board b = Board.builder()
-//                    .title("재밌는 글" + i)
-//                    .content("응 개노잼이야~~" + i)
-//                    .writer("아무무나" + i)
-//                    .build();
-//
-//            boardMapper.save(b);
-//        }
+        for (int i = 1; i <= 100; i++) {
+            Board b = Board.builder()
+                    .title("재밌는 글" + i)
+                    .content("응 개노잼이야~~" + i)
+                    .writer("아무무나" + i)
+                    .build();
+
+            boardMapper.save(b);
+        }
 
         for (int i = 1; i <= 5000; i++) {
             Reply reply = Reply.builder()
@@ -45,20 +45,20 @@ class ReplyMapperTest {
             replyMapper.save(reply);
         }
     }
+*/
 
 
 
-//
-//    @Test
-//    @DisplayName("전체조회")
-//    void findAllTest() {
-//        //given
-//        long boardNo = 1;
-//        //when
-//        List<Reply> replies = replyMapper.findAll(boardNo);
-//        //then
-//        replies.forEach(System.out::println);
-//    }
+    @Test
+    @DisplayName("전체조회")
+    void findAllTest() {
+        //given
+        long boardNo = 1;
+        //when
+        List<Reply> replies = replyMapper.findAll(boardNo, null);
+        //then
+        replies.forEach(System.out::println);
+    }
 
 
     @Test

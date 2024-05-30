@@ -70,9 +70,4 @@
         <include refid="search" />
     </select>
 
-    <delete id="deleteReply">
-        DELETE FROM tbl_board
-        WHERE reply_no = #{replyNo}
-    </delete>
-
 </mapper>

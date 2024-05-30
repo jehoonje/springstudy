@@ -21,7 +21,7 @@ public interface ReplyMapper {
 
     // 특정 게시물에 달린 댓글 목록 조회
     List<Reply> findAll(@Param("bno") long boardNo,
-                        @Param("p")Page page);
+                        @Param("p") Page page);
 
     // 총 댓글 수 조회
     int count(long boardNo);

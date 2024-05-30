@@ -58,7 +58,7 @@ public class ReplyService {
 
         replyMapper.modify(dto.toEntity());
 
-        return getReplies(dto.getBno(), new Page(1,10));
+        return getReplies(dto.getBno(), new Page(1, 10));
     }
 
     // 댓글 삭제
@@ -68,7 +68,7 @@ public class ReplyService {
         long bno = replyMapper.findBno(rno);
         boolean flag = replyMapper.delete(rno);
         // 삭제 후 삭제된 목록을 리턴
-        return flag ? getReplies(bno, new Page(1, 5)) : null;
+        return flag ? getReplies(bno, new Page(1, 10)) : null;
     }
 
 

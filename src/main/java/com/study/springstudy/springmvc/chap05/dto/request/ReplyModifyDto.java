@@ -28,4 +28,5 @@ public class ReplyModifyDto {
                 .boardNo(this.bno)
                 .build();
     }
+
 }
