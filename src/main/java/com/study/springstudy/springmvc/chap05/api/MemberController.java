@@ -62,7 +62,7 @@ public class MemberController {
     // 로그인 양식 열기
     @GetMapping("/sign-in")
     public String signIn(HttpSession session
-            , @RequestParam(required = false) String redirect
+                        , @RequestParam(required = false) String redirect
     ) {
 
         // 로그인을 한 사람이 이 요청을 보내면 돌려보낸다.

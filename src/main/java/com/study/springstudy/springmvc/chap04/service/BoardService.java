@@ -9,9 +9,11 @@ import com.study.springstudy.springmvc.chap04.entity.Board;
 import com.study.springstudy.springmvc.chap04.mapper.BoardMapper;
 import com.study.springstudy.springmvc.chap05.entity.Reply;
 import com.study.springstudy.springmvc.chap05.mapper.ReplyMapper;
+import com.study.springstudy.springmvc.util.LoginUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import javax.servlet.http.HttpSession;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -24,6 +26,7 @@ public class BoardService {
 
     // 목록 조회 요청 중간처리
     public List<BoardListResponseDto> findList(Search page) {
+
         List<BoardFindAllDto> boardList = boardMapper.findAll(page);
 
         // 조회해온 게시물 리스트에서 각 게시물들의 조회수를 확인하여
@@ -36,8 +39,11 @@ public class BoardService {
     }
 
     // 등록 요청 중간처리
-    public boolean insert(BoardWriteRequestDto dto) {
+    public boolean insert(BoardWriteRequestDto dto, HttpSession session) {
         Board b = dto.toEntity();
+        // 계정명을 엔터티에 추가 - 세션에서 계정명 가져오기
+        b.setAccount(LoginUtil.getLoggedInUserAccount(session));
+
         return boardMapper.save(b);
     }
 

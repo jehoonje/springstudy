@@ -1,3 +1,4 @@
+
 plugins {
     id 'java'
     id 'org.springframework.boot' version '2.7.10'
@@ -19,13 +20,14 @@ repositories {
 }
 
 dependencies {
-    //스프링 패키지
+    // 스프링 종합선물 세트
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    // 롬복 @getter 등등
+
+    // 롬복
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 
-    // junit @Test
+    // JUNIT
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
     //jsp 라이브러리 추가
@@ -41,11 +43,12 @@ dependencies {
     // 마이바티스 모듈
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.2.2'
 
-    // 입력값 검증 라이브러리 @notblank 등등
+    // 입력값 검증 라이브러리
     implementation 'org.springframework.boot:spring-boot-starter-validation'
 
     //스프링 시큐리티 모듈
     implementation 'org.springframework.boot:spring-boot-starter-security'
+
 }
 
 tasks.named('test') {

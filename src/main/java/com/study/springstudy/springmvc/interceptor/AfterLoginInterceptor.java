@@ -3,7 +3,6 @@ package com.study.springstudy.springmvc.interceptor;
 import com.study.springstudy.springmvc.util.LoginUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.HandlerInterceptor;
 
 import javax.servlet.http.HttpServletRequest;
@@ -20,7 +19,7 @@ public class AfterLoginInterceptor implements HandlerInterceptor {
         log.debug("after login interceptor execute!");
         if (LoginUtil.isLoggedIn(request.getSession())) {
             response.sendRedirect("/");
-            return false; // true 일경우 컨트롤러 진입 허용, false 진입 차단
+            return false; // true일경우 컨트롤러 진입 허용, false 진입 차단
         }
         return true;
     }
