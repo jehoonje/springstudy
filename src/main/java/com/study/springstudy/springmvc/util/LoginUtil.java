@@ -43,7 +43,6 @@ public class LoginUtil {
 
     public static boolean isAutoLogin(HttpServletRequest request) {
         Cookie autoLoginCookie = WebUtils.getCookie(request, AUTO_LOGIN_COOKIE);
-        return autoLoginCookie != null;    }
-
-
+        return autoLoginCookie != null;
+    }
 }

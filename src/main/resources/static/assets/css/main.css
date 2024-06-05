@@ -134,6 +134,19 @@ header .gnb ul li.active
     color: #fff;
 }
 
+/* 프로필 css */
+header .inner-header .profile-box {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+header .inner-header .profile-box img {
+    width: 100%;
+    height: 100%;
+}
+
+
 
 /*  section visual style  */
 section.visual .slide li {
@@ -178,6 +191,7 @@ section.visual .slide li .scroll {
     color: #ccc;
     transform: rotate(-90deg);
 }
+
 
 /* section.contents  */
 section.contents {

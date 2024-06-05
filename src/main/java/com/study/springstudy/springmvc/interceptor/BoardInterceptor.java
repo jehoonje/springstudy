@@ -58,7 +58,8 @@ public class BoardInterceptor implements HandlerInterceptor {
 
             // 대조해보는 작업이 필요함
             if (!isMine(boardAccount, loggedInUserAccount)) {
-                response.sendRedirect("/access-deny?message-authorization");
+                response.setStatus(403);
+                response.sendRedirect("/access-deny?message=authorization");
                 return false;
             }
 

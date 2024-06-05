@@ -1,7 +1,6 @@
 package com.study.springstudy.springmvc.chap05.dto.response;
 
 import lombok.*;
-import org.checkerframework.checker.units.qual.A;
 
 @Getter @ToString
 @EqualsAndHashCode

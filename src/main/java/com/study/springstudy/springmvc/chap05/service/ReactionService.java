@@ -48,7 +48,7 @@ public class ReactionService {
             reactionMapper.save(newReaction); // 새 리액션 생성
         }
 
-        // 리액션을 한 후 재조회를 통해 DB 데이터를 체크
+        // 리액션 한 후 재조회를 통해 DB데이터 상태를 체크
         return reactionMapper.findOne(boardNo, account);
 
     }
@@ -56,14 +56,21 @@ public class ReactionService {
 
     // 좋아요 중간처리
     public ReactionDto like(long boardNo, String account) {
-
         Reaction reaction = handleReaction(boardNo, account, ReactionType.LIKE);
-
         return getReactionDto(boardNo, reaction);
     }
 
+    // 싫어요 중간처리
+    public ReactionDto dislike(long boardNo, String account) {
+        Reaction reaction = handleReaction(boardNo, account, ReactionType.DISLIKE);
+        return getReactionDto(boardNo, reaction);
+    }
+
+
     private ReactionDto getReactionDto(long boardNo, Reaction reaction) {
+
         String reactionType = null;
+
         if (reaction != null) { // 좋아요, 싫어요를 누른 상태
             reactionType = reaction.getReactionType().toString();
         }
@@ -75,9 +82,5 @@ public class ReactionService {
                 .build();
     }
 
-    // 싫어요 중간처리
-    public ReactionDto dislike(long boardNo, String account) {
-        Reaction reaction = handleReaction(boardNo, account, ReactionType.DISLIKE);
-        return getReactionDto(boardNo, reaction);
-    }
+
 }
