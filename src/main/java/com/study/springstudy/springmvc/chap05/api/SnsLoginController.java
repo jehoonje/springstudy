@@ -17,6 +17,8 @@ public class SnsLoginController {
 
     private final SnsLoginService snsLoginService;
 
+
+
     @Value("${sns.kakao.app-key}")
     private String appKey;
     @Value("${sns.kakao.redirect-uri}")
